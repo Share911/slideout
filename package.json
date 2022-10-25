@@ -1,6 +1,6 @@
 {
-  "name": "slideout",
-  "repository": "git@github.com:mango/slideout.git",
+  "name": "@share911/slideout",
+  "repository": "git@github.com:share911/slideout.git",
   "description": "A touch slideout navigation menu for your mobile web apps.",
   "author": "Guille Paz <guille87paz@gmail.com>",
   "version": "1.0.1",
@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "decouple": "0.0.2",
-    "emitter": "git+https://github.com/Mango/emitter.git#0.0.7"
+    "@share911/emitter": "0.0.7"
   },
   "devDependencies": {
     "better-assert": "1.0.2",
@@ -35,14 +35,14 @@
   "spm": {
     "dependencies": {
       "decouple": "0.0.2",
-      "emitter": "git+https://github.com/Mango/emitter.git#0.0.7"
+      "@share911/emitter": "0.0.7"
     },
     "main": "index.js"
   },
   "filename": "slideout.min.js",
   "autoupdate": {
     "source": "git",
-    "target": "git://github.com/Mango/slideout.git",
+    "target": "git://github.com/Share911/slideout.git",
     "basePath": "dist",
     "files": [
       "*.js"
