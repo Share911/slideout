@@ -4,7 +4,7 @@
  * Module dependencies
  */
 var decouple = require('decouple');
-var Emitter = require('emitter');
+var Emitter = require('@share911/emitter');
 
 /**
  * Privates
